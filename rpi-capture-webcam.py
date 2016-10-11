@@ -8,7 +8,6 @@
 # Usage : python rpi-capture-webcam.py
 # Auteur : Cédric Goby
 # Licence : GNU General Public License, version 3 (GPL-3.0)
-# Comment
 
 # Importation des modules nécessaires
 import sys
