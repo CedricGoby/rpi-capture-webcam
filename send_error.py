@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
+#
 # filename: send_error.py
 # Description : Fonction qui envoie l'erreur d'exécution du script par email
 # Variables : _error : Erreur, _hostname : Hôte qui envoie l'email, _sender : expéditeur
