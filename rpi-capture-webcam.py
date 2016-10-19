@@ -1,13 +1,11 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-# filename: rpi-capture-webcam.py
-# Raspbian GNU/Linux 8 (Jessie)
-# Python 2.7
-# Raspberry pi2 Model B
-# USB camera - HP HD 2300
-# Usage : python rpi-capture-webcam.py
+
+# Description : Capture d'images par webcam et envoi vers une base MySQL
+# Copyright (C) 2016 Institut National de la Recherche Agronomique (INRA)
+# Licence : GPL-3+
 # Auteur : Cédric Goby
-# Licence : GNU General Public License, version 3 (GPL-3.0)
+# Versioning : https://github.com/CedricGoby/rpi-capture-webcam
 
 # Importation des modules nécessaires
 import sys

@@ -1,11 +1,14 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-#
-# filename: send_error.py
+
 # Description : Fonction qui envoie l'erreur d'exécution du script par email
+# Copyright (C) 2016 Institut National de la Recherche Agronomique (INRA)
+# Licence : GPL-3+
+# Auteur : Cédric Goby
+# Versioning : https://github.com/CedricGoby/rpi-capture-webcam
+
 # Variables : _error : Erreur, _hostname : Hôte qui envoie l'email, _sender : expéditeur
 # _recipient : destinataire, _file_name : nom du script en erreur, _smtp_server : serveur SMTP
-# Licence : GNU General Public License, version 3 (GPL-3.0)
 
 import smtplib
 import email.utils
