@@ -2,7 +2,6 @@
 # -*- coding: utf-8 -*-
 
 # Description : Capture d'images par webcam et envoi vers une base MySQL
-# Copyright (C) 2016 Institut National de la Recherche Agronomique (INRA)
 # Licence : GPL-3+
 # Auteur : Cédric Goby
 # Versioning : https://github.com/CedricGoby/rpi-capture-webcam
