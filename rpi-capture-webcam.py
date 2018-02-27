@@ -3,6 +3,7 @@
 
 # Description : Capture d'images par webcam et envoi vers une base MySQL
 # Licence : GPL-3+
+# Langage : Python 2
 # Auteur : Cédric Goby
 # Versioning : https://github.com/CedricGoby/rpi-capture-webcam
 
@@ -20,7 +21,7 @@ __db_name ="db-name"
 # Nom de la table
 __db_table ="db-table"
 # Fichier de connexion (contient : utilisateur MySQL, mot de passe, hôte MySQL)
-__db_login_file ="db-login.cnf"
+__db_login_file = os.path.join(sys.path[0], 'db-login.cnf')
 # Nom de l'hôte qui envoie les emails
 __hostname ="hostname"
 # Expéditeur des emails
