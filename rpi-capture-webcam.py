@@ -5,7 +5,7 @@
 # Licence : GPL-3+
 # Langage : Python 2
 # Auteur : Cédric Goby
-# Versioning : https://github.com/CedricGoby/rpi-capture-webcam
+# Versioning : https://gitlab.com/CedricGoby/rpi-capture-webcam
 
 # Importation des modules nécessaires
 import sys
